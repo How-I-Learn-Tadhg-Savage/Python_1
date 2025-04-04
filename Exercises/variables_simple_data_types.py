@@ -37,9 +37,12 @@ print (famous_quote)
 # Use a variable to represent a person’s name, and include some whitespace characters at the beginning and end of the name. 
 name = " John "
 print (name)
-print (name.lstrip)
-print (name.rstrip)
-print (name.strip)
+name = " John "
+print (name.lstrip())
+name = " John "
+print (name.rstrip())
+name = " John "
+print (name.strip())
 
 # Question 8
 #  File Extensions: Python has a removesuffix() method that works exactly like removeprefix(). Assign the value 'python_notes.txt' to a variable called filename. Then use the removesuffix() method to display the filename without the file extension, like some file browsers do.
@@ -58,6 +61,10 @@ print (16 / 2)
 favourite_number  = 10
 message = f"My favourite number is {favourite_number}!"
 print (message)
+
+# Question 11
+## Use tab and new line for your favourite languages
+print ("My favourite langauges are:\n\tPython\n\tJava\n\tGolang")
 
 # The Zen of Python
 import this
