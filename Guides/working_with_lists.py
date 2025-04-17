@@ -129,6 +129,37 @@ friends_foods.append('yogurt')
 print (my_foods)
 print (friends_foods)
 
+# Python refers to values that cannot chnange as being immutable
+# A tuple is an immutable list
+# A tuple looks just like a list but we use parenthesis instead of square brackets
+dimmensions = (20, 50)
+# Like in a list elements can be accessed by their index
+print (dimmensions[0])
+print (dimmensions[1])
+
+# Tuples are technically defined by a comma the parenthesis just make them neater
+# Therefore a tuple with only one element still must contain a comma
+time = (1,)
+print(time)
+
+# One can also loop over a tuple in the same way as a list
+dimensions = (20, 30)
+for dimension in dimensions:
+    print (dimension)
+
+# Although Tuples are immutable they can be written over
+print("\nOriginal dimensions:")
+dimensions = (10, 20)
+for dimension in dimensions:
+    print (dimension)
+
+print("\nModidied dimensions:")
+dimensions = (50, 100)
+for dimension in dimensions:
+    print(dimension)
+
+
+
 
 
 
