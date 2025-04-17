@@ -146,6 +146,7 @@ print(time)
 dimensions = (20, 30)
 for dimension in dimensions:
     print (dimension)
+    
 
 # Although Tuples are immutable they can be written over
 print("\nOriginal dimensions:")
